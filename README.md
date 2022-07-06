@@ -1,6 +1,6 @@
 # evm-dev-bootcamp
 
-Udemy Ethereum Blockchain Developer Course that was successfully completedtook in 2021.
+Content-rich 60h+ [Ethereum Blockchain Developer](https://www.udemy.com/course/blockchain-developer/) Course from Ravinder Deol, Thomas Wiesner, and Haseeb Chaudhry on Udemy that was successfully completed in 2021.
 
 ## Contents
 
@@ -16,10 +16,6 @@ Udemy Ethereum Blockchain Developer Course that was successfully completedtook i
 
 ![Solidity Cheat Sheet 1](./img/sol_cheatsheet_01.png)
 ![Solidity Cheat Sheet 2](./img/sol_cheatsheet_02.png)
-
-## Link
-
-[Udemy Course](https://www.udemy.com/course/blockchain-developer/)
 
 ## Tools
 
