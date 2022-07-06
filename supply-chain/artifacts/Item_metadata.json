@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ItemManager",
+						"name": "_itemManager",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bootcamp/SupplyChain/Item.sol": "Item"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bootcamp/SupplyChain/Item.sol": {
+			"keccak256": "0x61ea0ff6b4c1e6720128fd135b9cefb193505cf25007c22a5e84010b9747f80e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65cc5d716969981af945531488807e4cece7b627066e2e4240ba423946901d55",
+				"dweb:/ipfs/QmTK8RAntbPyitYy7p2ww7EpxpM6ptdnkdySfyK8caQ6J6"
+			]
+		},
+		"Bootcamp/SupplyChain/ItemManager.sol": {
+			"keccak256": "0xbf6af062035ff044843cfed651ed6c214c506e73579a91280a8ae4577b1e79dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b7acf21c270a6e4b27939d039eecda1c890f5b59e4b3eda67da706cc9949324",
+				"dweb:/ipfs/Qma5b8knjV8eQpKwDeKMCuxjUXe2MfQUBmQHCfM4d66kV4"
+			]
+		}
+	},
+	"version": 1
+}
