@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "append",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_old",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_new",
+						"type": "uint256"
+					}
+				],
+				"name": "replace",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bootcamp/Contracts/Fundamentals/LibraryWithUsing.sol": "LibraryWithUsing"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bootcamp/Contracts/Fundamentals/LibraryWithUsing.sol": {
+			"keccak256": "0x0fcc19c6f824f7933fee79a94e235a62551065b810232bfbf57d048bdc255f6f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3499431bfbca373fb64f2500500bbb4bf52bc0b4dce1f378920b884b33101cda",
+				"dweb:/ipfs/QmS1H7E3ugSnvf18fmHCZT7cvoEKJAFX44SnDTHN114USW"
+			]
+		}
+	},
+	"version": 1
+}

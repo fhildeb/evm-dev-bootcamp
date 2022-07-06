@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bootcamp/Contracts/Fundamentals/Libraries.sol": "LibrariesExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bootcamp/Contracts/Fundamentals/Libraries.sol": {
+			"keccak256": "0x18aedaa3b7d6e91bb82bccccdc3bd76f61b3bf1c45931bd5a41db6c804e0d123",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3dee548640f7c0ef566b1cabc1dbbf916bf3d9f1f6acfee405f0cdafe2529bc3",
+				"dweb:/ipfs/Qmf8gdQquYBp4NeBG7anv2DoAN25LMnDfQuPvTBGEWQyxy"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0xf69db949d9eee4ae27963cd8a5b3c2f68f6d431e63505743c91b59d91fd2403a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12a99feecf4545396df1f38083f3695e15a843ecb087fe7d19b748aec2c92846",
+				"dweb:/ipfs/QmPjczEhnPGUp4VyWtwfAk5UDdNSLJUE5URNyiqyG4Dayn"
+			]
+		}
+	},
+	"version": 1
+}

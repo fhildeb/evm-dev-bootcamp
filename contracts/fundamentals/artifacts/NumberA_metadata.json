@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getXfromA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bootcamp/Contracts/Fundamentals/StateShadowing.sol": "NumberA"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bootcamp/Contracts/Fundamentals/StateShadowing.sol": {
+			"keccak256": "0x63437fa22d0821b02b70df91cd60d8b653835c17d9146bbaffde853494394895",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7097a40d82349913a7cc8238ed51213e34150b557c5388300122e7c4e07653b",
+				"dweb:/ipfs/QmTzf7BpP6eRoCRKJ5ic1U58smEVRa3oqX4GnrqHSk9xA4"
+			]
+		}
+	},
+	"version": 1
+}

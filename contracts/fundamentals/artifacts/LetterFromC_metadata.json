@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "LetterEventA",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "LetterEventB",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"message()": {
+					"notice": "Override must be used in order to manipulate the overload a function  Order of override itself does not change override power from the inherited contracts"
+				}
+			},
+			"notice": "Override on functions with equal names is done in the specified order:  message in LetterFromB is overridden from message in LetterFromA The last contract has the power",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bootcamp/Contracts/Fundamentals/Overwrite.sol": "LetterFromC"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bootcamp/Contracts/Fundamentals/Overwrite.sol": {
+			"keccak256": "0x6b3fd0d1b7206939218099b3f87754e45f3355f16428849398199345e3a79378",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46eea5a6ff64fe33471a7f21ad1593ce284fa20421da80df1a21f5fd14b569ad",
+				"dweb:/ipfs/QmVYEAQymaW1eVJNE1wwZxuCFasukC1G44m2HFbVDSVuSd"
+			]
+		}
+	},
+	"version": 1
+}
