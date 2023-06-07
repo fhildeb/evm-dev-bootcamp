@@ -4,12 +4,12 @@ pragma solidity ^0.8.7;
 
 contract Owned {
     address owner;
-    
+
     constructor() {
         owner = msg.sender;
     }
-    
-    modifier onlyOwner(){
+
+    modifier onlyOwner() {
         require(msg.sender == owner, "You are not allowed");
         /**
          * The function body of an modifier method is copied
@@ -18,9 +18,9 @@ contract Owned {
          */
         _;
     }
-    
+
     // Restricted to own and inheritance contracts
-    function showOwner() internal view returns(address){
+    function showOwner() internal view returns (address) {
         return owner;
     }
 }

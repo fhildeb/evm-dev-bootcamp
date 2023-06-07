@@ -8,40 +8,38 @@ contract Variables {
     uint8 public myUint8;
     address public myAddress;
     string public myString;
-    
+
     function setMyUint(uint _myUint) public {
         myUint = _myUint;
     }
-    
+
     function setMyBool(bool _myBool) public {
         myBool = _myBool;
     }
-    
+
     function incrementUint() public {
         // dont check for overflow
         unchecked {
-            myUint8++; 
+            myUint8++;
         }
-
     }
-    
+
     function decrementUint() public {
         // dont check for overflow
         unchecked {
-            myUint8--; 
+            myUint8--;
         }
     }
-    
+
     function setAddress(address _myAddress) public {
         myAddress = _myAddress;
     }
-    
-    function getBalanceOfAddress() public view returns(uint){
+
+    function getBalanceOfAddress() public view returns (uint) {
         return myAddress.balance;
     }
-    
+
     function setMyString(string memory _myString) public {
         myString = _myString;
     }
-
 }

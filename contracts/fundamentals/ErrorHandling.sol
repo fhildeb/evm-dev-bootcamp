@@ -10,26 +10,23 @@ contract ThrowError {
     }
 }
 
-// /*
 contract ErrorHandling {
-    
     uint public numExecuted;
-    
+
     // Event emited on transaaction execution
     event ErrorLogging(string reason);
-    
+
     function catchError() public {
         ThrowError te = new ThrowError();
 
         try te.throwFunction() {
             // Execute additional code, if function has not thrown an error
             numExecuted++;
-        }  
-        // String in error is mandatory
-        catch Error(string memory reason) {
+        } catch Error(
+            string memory reason // String in error is mandatory
+        ) {
             // Event for external applications or error handling
             emit ErrorLogging(reason);
         }
     }
 }
-// */

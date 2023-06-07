@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.7;
 
- contract NumberA {
+contract NumberA {
     uint private x = 123;
-    
-    function getXfromA() public view returns(uint){
+
+    function getXfromA() public view returns (uint) {
         return x;
     }
 }
@@ -16,8 +16,8 @@ contract NumberB is NumberA {
      * private variables
      */
     uint x = 234;
-    
-    function getXfromB() public view returns(uint){
+
+    function getXfromB() public view returns (uint) {
         return x;
     }
 }
