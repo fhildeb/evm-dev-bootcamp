@@ -1,190 +1,190 @@
 {
-	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
-	},
-	"language": "Solidity",
-	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "decrementUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalanceOfAddress",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myBool",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myString",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint8",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_myAddress",
-						"type": "address"
-					}
-				],
-				"name": "setAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "_myBool",
-						"type": "bool"
-					}
-				],
-				"name": "setMyBool",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_myString",
-						"type": "string"
-					}
-				],
-				"name": "setMyString",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myUint",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"Bootcamp/Contracts/Fundamentals/Variables.sol": "Variables"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"Bootcamp/Contracts/Fundamentals/Variables.sol": {
-			"keccak256": "0x3004360fe1a9ad44f58a78f586180486210327c6cd8ee38c875c246e591e5a43",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://cd64ed3e876b6985965e0f48b5f47281239ec9efdab57be9d15b40f626f09acc",
-				"dweb:/ipfs/QmaCNVfGXBeZfziCt5gpMoFoDHvUJ9XWtxJCv2oB8FzQ4L"
-			]
-		}
-	},
-	"version": 1
+  "compiler": {
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "name": "decrementUint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getBalanceOfAddress",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "incrementUint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "myAddress",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "myBool",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "myString",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "myUint",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "myUint8",
+        "outputs": [
+          {
+            "internalType": "uint8",
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_myAddress",
+            "type": "address"
+          }
+        ],
+        "name": "setAddress",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "bool",
+            "name": "_myBool",
+            "type": "bool"
+          }
+        ],
+        "name": "setMyBool",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_myString",
+            "type": "string"
+          }
+        ],
+        "name": "setMyString",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_myUint",
+            "type": "uint256"
+          }
+        ],
+        "name": "setMyUint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "Bootcamp/Contracts/Fundamentals/Variables.sol": "Variables"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "Bootcamp/Contracts/Fundamentals/Variables.sol": {
+      "keccak256": "0x3004360fe1a9ad44f58a78f586180486210327c6cd8ee38c875c246e591e5a43",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://cd64ed3e876b6985965e0f48b5f47281239ec9efdab57be9d15b40f626f09acc",
+        "dweb:/ipfs/QmaCNVfGXBeZfziCt5gpMoFoDHvUJ9XWtxJCv2oB8FzQ4L"
+      ]
+    }
+  },
+  "version": 1
 }

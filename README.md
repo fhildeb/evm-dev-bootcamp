@@ -8,7 +8,7 @@ Content-rich 60h+ [Ethereum Blockchain Developer](https://www.udemy.com/course/b
 - Geth Private/Local Setups
 - Supply Chain dApp
 - Tokenization dApp
-- Truffle & Ganache Setups 
+- Truffle & Ganache Setups
 - Truffle Solidity Testing
 - Web3 Webpage Setups
 

@@ -1,130 +1,130 @@
 {
-	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
-	},
-	"language": "Solidity",
-	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "burnToken",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "createNewToken",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getOwner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "purchaseToken",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_receiver",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "sendToken",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "tokenBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"Bootcamp/Contracts/Fundamentals/InheritanceModifier.sol": "InheritanceModifier"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"Bootcamp/Contracts/Fundamentals/InheritanceModifier.sol": {
-			"keccak256": "0xac52e93e19b9a49ae46fdc2de8a3d9ce3ca63c183dd9fe3eb078530b60c51209",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://7426c48cca3eeeb4865e1c5a6e6339a3bbc1ec4785bc3f509032fe8c042fb729",
-				"dweb:/ipfs/QmZrhVD6fRMQNTNRB5bF7rapPG9kJHTw7Wqfj2r3sxeKCd"
-			]
-		},
-		"Bootcamp/Contracts/Fundamentals/Owned.sol": {
-			"keccak256": "0x161ff166731497f5bbf136e8a22599c648e86bfc17e36ae93defe26f0ee58e2e",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://42b50f887287f7fe9d931da3263e6b003b9b517ab899b2d2fe0888610b09aac6",
-				"dweb:/ipfs/QmUupiEyhZLECR7DZY73FDzASpFZ53puJxwLRNjmNTnMHv"
-			]
-		}
-	},
-	"version": 1
+  "compiler": {
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "burnToken",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "createNewToken",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getOwner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "purchaseToken",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_receiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_value",
+            "type": "uint256"
+          }
+        ],
+        "name": "sendToken",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "tokenBalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "Bootcamp/Contracts/Fundamentals/InheritanceModifier.sol": "InheritanceModifier"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "Bootcamp/Contracts/Fundamentals/InheritanceModifier.sol": {
+      "keccak256": "0xac52e93e19b9a49ae46fdc2de8a3d9ce3ca63c183dd9fe3eb078530b60c51209",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://7426c48cca3eeeb4865e1c5a6e6339a3bbc1ec4785bc3f509032fe8c042fb729",
+        "dweb:/ipfs/QmZrhVD6fRMQNTNRB5bF7rapPG9kJHTw7Wqfj2r3sxeKCd"
+      ]
+    },
+    "Bootcamp/Contracts/Fundamentals/Owned.sol": {
+      "keccak256": "0x161ff166731497f5bbf136e8a22599c648e86bfc17e36ae93defe26f0ee58e2e",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://42b50f887287f7fe9d931da3263e6b003b9b517ab899b2d2fe0888610b09aac6",
+        "dweb:/ipfs/QmUupiEyhZLECR7DZY73FDzASpFZ53puJxwLRNjmNTnMHv"
+      ]
+    }
+  },
+  "version": 1
 }

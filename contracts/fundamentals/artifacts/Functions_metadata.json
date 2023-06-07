@@ -1,168 +1,168 @@
 {
-	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
-	},
-	"language": "Solidity",
-	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"stateMutability": "nonpayable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balanceReceived",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_amountInWei",
-						"type": "uint256"
-					}
-				],
-				"name": "convertWeiToEther",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "destroySmartContract",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getOwner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "lastFallbackData",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "receiveFunds",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sampleCalculation",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_receiver",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "withdrawFunds",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"Bootcamp/Contracts/Fundamentals/Functions.sol": "Functions"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"Bootcamp/Contracts/Fundamentals/Functions.sol": {
-			"keccak256": "0x0ce6b6c87e559d317eae01c90cd32ccba0d05f6b150f89c38300c81615db481b",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://e9836ba590d690f36b1939fd6d7b652fe0b795b0cdf591eeff718eeeb51f803a",
-				"dweb:/ipfs/QmUD7jALVVzhhAhKNVEKi3tnYMj5KQ48GFMfe7dZA8Sw29"
-			]
-		}
-	},
-	"version": 1
+  "compiler": {
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "stateMutability": "nonpayable",
+        "type": "fallback"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "balanceReceived",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_amountInWei",
+            "type": "uint256"
+          }
+        ],
+        "name": "convertWeiToEther",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "destroySmartContract",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getOwner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "lastFallbackData",
+        "outputs": [
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "receiveFunds",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "sampleCalculation",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address payable",
+            "name": "_receiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_value",
+            "type": "uint256"
+          }
+        ],
+        "name": "withdrawFunds",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "stateMutability": "payable",
+        "type": "receive"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "Bootcamp/Contracts/Fundamentals/Functions.sol": "Functions"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "Bootcamp/Contracts/Fundamentals/Functions.sol": {
+      "keccak256": "0x0ce6b6c87e559d317eae01c90cd32ccba0d05f6b150f89c38300c81615db481b",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://e9836ba590d690f36b1939fd6d7b652fe0b795b0cdf591eeff718eeeb51f803a",
+        "dweb:/ipfs/QmUD7jALVVzhhAhKNVEKi3tnYMj5KQ48GFMfe7dZA8Sw29"
+      ]
+    }
+  },
+  "version": 1
 }

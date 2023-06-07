@@ -9809,36 +9809,16 @@
   "ast": {
     "absolutePath": "project:/contracts/TokenSale.sol",
     "exportedSymbols": {
-      "Address": [
-        1145
-      ],
-      "Context": [
-        1175
-      ],
-      "Crowdsale": [
-        974
-      ],
-      "IERC20": [
-        1253
-      ],
-      "KYCManager": [
-        1024
-      ],
-      "Ownable": [
-        1358
-      ],
-      "ReentrancyGuard": [
-        1390
-      ],
-      "SafeERC20": [
-        1624
-      ],
-      "SafeMath": [
-        1820
-      ],
-      "TokenSale": [
-        1908
-      ]
+      "Address": [1145],
+      "Context": [1175],
+      "Crowdsale": [974],
+      "IERC20": [1253],
+      "KYCManager": [1024],
+      "Ownable": [1358],
+      "ReentrancyGuard": [1390],
+      "SafeERC20": [1624],
+      "SafeMath": [1820],
+      "TokenSale": [1908]
     },
     "id": 1909,
     "license": "MIT",
@@ -9846,12 +9826,7 @@
     "nodes": [
       {
         "id": 1853,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:15"
       },
@@ -9900,12 +9875,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1908,
-        "linearizedBaseContracts": [
-          1908,
-          974,
-          1390,
-          1175
-        ],
+        "linearizedBaseContracts": [1908, 974, 1390, 1175],
         "name": "TokenSale",
         "nameLocation": "121:9:15",
         "nodeType": "ContractDefinition",
@@ -10197,9 +10167,7 @@
             "visibility": "public"
           },
           {
-            "baseFunctions": [
-              899
-            ],
+            "baseFunctions": [899],
             "body": {
               "id": 1906,
               "nodeType": "Block",
@@ -10386,10 +10354,7 @@
                       "id": 1898,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "512:7:15",
                       "typeDescriptions": {
@@ -10516,36 +10481,16 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/TokenSale.sol",
     "exportedSymbols": {
-      "Address": [
-        1145
-      ],
-      "Context": [
-        1175
-      ],
-      "Crowdsale": [
-        974
-      ],
-      "IERC20": [
-        1253
-      ],
-      "KYCManager": [
-        1024
-      ],
-      "Ownable": [
-        1358
-      ],
-      "ReentrancyGuard": [
-        1390
-      ],
-      "SafeERC20": [
-        1624
-      ],
-      "SafeMath": [
-        1820
-      ],
-      "TokenSale": [
-        1908
-      ]
+      "Address": [1145],
+      "Context": [1175],
+      "Crowdsale": [974],
+      "IERC20": [1253],
+      "KYCManager": [1024],
+      "Ownable": [1358],
+      "ReentrancyGuard": [1390],
+      "SafeERC20": [1624],
+      "SafeMath": [1820],
+      "TokenSale": [1908]
     },
     "id": 1909,
     "license": "MIT",
@@ -10553,12 +10498,7 @@
     "nodes": [
       {
         "id": 1853,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:15"
       },
@@ -10607,12 +10547,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1908,
-        "linearizedBaseContracts": [
-          1908,
-          974,
-          1390,
-          1175
-        ],
+        "linearizedBaseContracts": [1908, 974, 1390, 1175],
         "name": "TokenSale",
         "nameLocation": "121:9:15",
         "nodeType": "ContractDefinition",
@@ -10904,9 +10839,7 @@
             "visibility": "public"
           },
           {
-            "baseFunctions": [
-              899
-            ],
+            "baseFunctions": [899],
             "body": {
               "id": 1906,
               "nodeType": "Block",
@@ -11093,10 +11026,7 @@
                       "id": 1898,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "512:7:15",
                       "typeDescriptions": {

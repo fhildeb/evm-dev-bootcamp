@@ -1919,15 +1919,9 @@
   "ast": {
     "absolutePath": "project:/contracts/KYCManager.sol",
     "exportedSymbols": {
-      "Context": [
-        1175
-      ],
-      "KYCManager": [
-        1024
-      ],
-      "Ownable": [
-        1358
-      ]
+      "Context": [1175],
+      "KYCManager": [1024],
+      "Ownable": [1358]
     },
     "id": 1025,
     "license": "MIT",
@@ -1935,12 +1929,7 @@
     "nodes": [
       {
         "id": 976,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "34:23:5"
       },
@@ -1977,11 +1966,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1024,
-        "linearizedBaseContracts": [
-          1024,
-          1358,
-          1175
-        ],
+        "linearizedBaseContracts": [1024, 1358, 1175],
         "name": "KYCManager",
         "nameLocation": "106:10:5",
         "nodeType": "ContractDefinition",
@@ -2475,15 +2460,9 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/KYCManager.sol",
     "exportedSymbols": {
-      "Context": [
-        1175
-      ],
-      "KYCManager": [
-        1024
-      ],
-      "Ownable": [
-        1358
-      ]
+      "Context": [1175],
+      "KYCManager": [1024],
+      "Ownable": [1358]
     },
     "id": 1025,
     "license": "MIT",
@@ -2491,12 +2470,7 @@
     "nodes": [
       {
         "id": 976,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "34:23:5"
       },
@@ -2533,11 +2507,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1024,
-        "linearizedBaseContracts": [
-          1024,
-          1358,
-          1175
-        ],
+        "linearizedBaseContracts": [1024, 1358, 1175],
         "name": "KYCManager",
         "nameLocation": "106:10:5",
         "nodeType": "ContractDefinition",

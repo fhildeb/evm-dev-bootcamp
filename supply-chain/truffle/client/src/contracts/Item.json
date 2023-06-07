@@ -3376,15 +3376,9 @@
   "ast": {
     "absolutePath": "project:/contracts/Item.sol",
     "exportedSymbols": {
-      "Item": [
-        85
-      ],
-      "ItemManager": [
-        295
-      ],
-      "Ownable": [
-        331
-      ]
+      "Item": [85],
+      "ItemManager": [295],
+      "Ownable": [331]
     },
     "id": 86,
     "license": "MIT",
@@ -3392,12 +3386,7 @@
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:0"
       },
@@ -3421,9 +3410,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 85,
-        "linearizedBaseContracts": [
-          85
-        ],
+        "linearizedBaseContracts": [85],
         "name": "Item",
         "nameLocation": "96:4:0",
         "nodeType": "ContractDefinition",
@@ -3893,10 +3880,7 @@
                       "id": 37,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "515:7:0",
                       "typeDescriptions": {
@@ -4003,10 +3987,7 @@
                       "id": 45,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "590:7:0",
                       "typeDescriptions": {
@@ -4091,10 +4072,7 @@
                   "src": "643:17:0"
                 },
                 {
-                  "assignments": [
-                    58,
-                    null
-                  ],
+                  "assignments": [58, null],
                   "declarations": [
                     {
                       "constant": false,
@@ -4299,9 +4277,7 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "names": [
-                        "value"
-                      ],
+                      "names": ["value"],
                       "nodeType": "FunctionCallOptions",
                       "options": [
                         {
@@ -4401,10 +4377,7 @@
                       "id": 74,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "857:7:0",
                       "typeDescriptions": {
@@ -4501,15 +4474,9 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/Item.sol",
     "exportedSymbols": {
-      "Item": [
-        85
-      ],
-      "ItemManager": [
-        295
-      ],
-      "Ownable": [
-        331
-      ]
+      "Item": [85],
+      "ItemManager": [295],
+      "Ownable": [331]
     },
     "id": 86,
     "license": "MIT",
@@ -4517,12 +4484,7 @@
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:0"
       },
@@ -4546,9 +4508,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 85,
-        "linearizedBaseContracts": [
-          85
-        ],
+        "linearizedBaseContracts": [85],
         "name": "Item",
         "nameLocation": "96:4:0",
         "nodeType": "ContractDefinition",
@@ -5018,10 +4978,7 @@
                       "id": 37,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "515:7:0",
                       "typeDescriptions": {
@@ -5128,10 +5085,7 @@
                       "id": 45,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "590:7:0",
                       "typeDescriptions": {
@@ -5216,10 +5170,7 @@
                   "src": "643:17:0"
                 },
                 {
-                  "assignments": [
-                    58,
-                    null
-                  ],
+                  "assignments": [58, null],
                   "declarations": [
                     {
                       "constant": false,
@@ -5424,9 +5375,7 @@
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "names": [
-                        "value"
-                      ],
+                      "names": ["value"],
                       "nodeType": "FunctionCallOptions",
                       "options": [
                         {
@@ -5526,10 +5475,7 @@
                       "id": 74,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "857:7:0",
                       "typeDescriptions": {

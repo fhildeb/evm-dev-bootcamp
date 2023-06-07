@@ -20,9 +20,7 @@
   "ast": {
     "absolutePath": "project:/contracts/subcontracts/Context.sol",
     "exportedSymbols": {
-      "Context": [
-        1175
-      ]
+      "Context": [1175]
     },
     "id": 1176,
     "license": "MIT",
@@ -30,12 +28,7 @@
     "nodes": [
       {
         "id": 1147,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:8"
       },
@@ -47,9 +40,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1175,
-        "linearizedBaseContracts": [
-          1175
-        ],
+        "linearizedBaseContracts": [1175],
         "name": "Context",
         "nameLocation": "567:7:8",
         "nodeType": "ContractDefinition",
@@ -346,9 +337,7 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/subcontracts/Context.sol",
     "exportedSymbols": {
-      "Context": [
-        1175
-      ]
+      "Context": [1175]
     },
     "id": 1176,
     "license": "MIT",
@@ -356,12 +345,7 @@
     "nodes": [
       {
         "id": 1147,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:8"
       },
@@ -373,9 +357,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1175,
-        "linearizedBaseContracts": [
-          1175
-        ],
+        "linearizedBaseContracts": [1175],
         "name": "Context",
         "nameLocation": "567:7:8",
         "nodeType": "ContractDefinition",

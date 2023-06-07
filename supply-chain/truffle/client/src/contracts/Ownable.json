@@ -581,9 +581,7 @@
   "ast": {
     "absolutePath": "project:/contracts/Ownable.sol",
     "exportedSymbols": {
-      "Ownable": [
-        368
-      ]
+      "Ownable": [368]
     },
     "id": 369,
     "license": "MIT",
@@ -591,12 +589,7 @@
     "nodes": [
       {
         "id": 334,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:3"
       },
@@ -608,9 +601,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 368,
-        "linearizedBaseContracts": [
-          368
-        ],
+        "linearizedBaseContracts": [368],
         "name": "Ownable",
         "nameLocation": "67:7:3",
         "nodeType": "ContractDefinition",
@@ -804,10 +795,7 @@
                       "id": 347,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "197:7:3",
                       "typeDescriptions": {
@@ -1006,9 +994,7 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/Ownable.sol",
     "exportedSymbols": {
-      "Ownable": [
-        368
-      ]
+      "Ownable": [368]
     },
     "id": 369,
     "license": "MIT",
@@ -1016,12 +1002,7 @@
     "nodes": [
       {
         "id": 334,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "33:23:3"
       },
@@ -1033,9 +1014,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 368,
-        "linearizedBaseContracts": [
-          368
-        ],
+        "linearizedBaseContracts": [368],
         "name": "Ownable",
         "nameLocation": "67:7:3",
         "nodeType": "ContractDefinition",
@@ -1229,10 +1208,7 @@
                       "id": 347,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "197:7:3",
                       "typeDescriptions": {

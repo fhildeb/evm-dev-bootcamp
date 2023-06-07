@@ -1,76 +1,76 @@
 {
-	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
-	},
-	"language": "Solidity",
-	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "myUint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myUint",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {
-				"setMyUint(uint256)": {
-					"notice": "Function names will be converted into hashes during compilation. Public variables receive an getter function automatically  First 4 bytes of keccack256 hash: setMyUint() => 492bfa18  Application binary interface is used in order to know certain functionalities a smart contract comes with => JSON will be transformed into hashes so methods can be  compared to stored bytecode  OPCODES have different gas consumption which can be read from the Ethereum yellowpaper. Those can also be checked in the debugger"
-				}
-			},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"Bootcamp/Contracts/Fundamentals/Debugger.sol": "Debugger"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"Bootcamp/Contracts/Fundamentals/Debugger.sol": {
-			"keccak256": "0xa412346b69261b8ad405d0dd608531b58fa02a42a71369c6a6d73d790af87b9e",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://8b6df45fd8046820bf9abadfa8af0fa7b5aa6f0f2cf006a16ea6ea4858dc4df5",
-				"dweb:/ipfs/QmZUmmhN2kLMqfmypd56oDkq88VBJtLbTfWaYFTrExrRxy"
-			]
-		}
-	},
-	"version": 1
+  "compiler": {
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "name": "myUint",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_myUint",
+            "type": "uint256"
+          }
+        ],
+        "name": "setMyUint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {
+        "setMyUint(uint256)": {
+          "notice": "Function names will be converted into hashes during compilation. Public variables receive an getter function automatically  First 4 bytes of keccack256 hash: setMyUint() => 492bfa18  Application binary interface is used in order to know certain functionalities a smart contract comes with => JSON will be transformed into hashes so methods can be  compared to stored bytecode  OPCODES have different gas consumption which can be read from the Ethereum yellowpaper. Those can also be checked in the debugger"
+        }
+      },
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "Bootcamp/Contracts/Fundamentals/Debugger.sol": "Debugger"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "Bootcamp/Contracts/Fundamentals/Debugger.sol": {
+      "keccak256": "0xa412346b69261b8ad405d0dd608531b58fa02a42a71369c6a6d73d790af87b9e",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://8b6df45fd8046820bf9abadfa8af0fa7b5aa6f0f2cf006a16ea6ea4858dc4df5",
+        "dweb:/ipfs/QmZUmmhN2kLMqfmypd56oDkq88VBJtLbTfWaYFTrExrRxy"
+      ]
+    }
+  },
+  "version": 1
 }

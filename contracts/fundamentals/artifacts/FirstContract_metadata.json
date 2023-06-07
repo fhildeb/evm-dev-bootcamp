@@ -1,59 +1,59 @@
 {
-	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
-	},
-	"language": "Solidity",
-	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "myString",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"Bootcamp/Contracts/Fundamentals/FirstContract.sol": "FirstContract"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"Bootcamp/Contracts/Fundamentals/FirstContract.sol": {
-			"keccak256": "0xd597e903ebba4d1b0c2646097e492f7c626e850d5b16826f52bb42ab3461c162",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://a765acaab711546efee5901e1adf67f9c3d529d0331064ec39317dc3ea390c4c",
-				"dweb:/ipfs/QmbFm81vAumt7tbq7n45ohMT29BVKojo4p7arhfxw7HrgA"
-			]
-		}
-	},
-	"version": 1
+  "compiler": {
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "name": "myString",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "Bootcamp/Contracts/Fundamentals/FirstContract.sol": "FirstContract"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "Bootcamp/Contracts/Fundamentals/FirstContract.sol": {
+      "keccak256": "0xd597e903ebba4d1b0c2646097e492f7c626e850d5b16826f52bb42ab3461c162",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://a765acaab711546efee5901e1adf67f9c3d529d0331064ec39317dc3ea390c4c",
+        "dweb:/ipfs/QmbFm81vAumt7tbq7n45ohMT29BVKojo4p7arhfxw7HrgA"
+      ]
+    }
+  },
+  "version": 1
 }

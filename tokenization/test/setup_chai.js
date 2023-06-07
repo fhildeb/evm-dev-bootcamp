@@ -10,7 +10,7 @@ const expect = chai.expect;
 // Connect to chai setup
 const BN = web3.utils.BN;
 // Import BigNumber from web3.js
-const chaiBN = require('chai-bn')(BN);
+const chaiBN = require("chai-bn")(BN);
 chai.use(chaiBN);
 
 var chaiAsPromised = require("chai-as-promised");

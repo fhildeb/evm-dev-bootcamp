@@ -1,79 +1,79 @@
 {
-	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
-	},
-	"language": "Solidity",
-	"output": {
-		"abi": [
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "reason",
-						"type": "string"
-					}
-				],
-				"name": "ErrorLogging",
-				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "catchError",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numExecuted",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
-		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
-		},
-		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
-		}
-	},
-	"settings": {
-		"compilationTarget": {
-			"Bootcamp/Contracts/Fundamentals/ErrorHandling.sol": "ErrorHandling"
-		},
-		"evmVersion": "london",
-		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
-		"optimizer": {
-			"enabled": false,
-			"runs": 200
-		},
-		"remappings": []
-	},
-	"sources": {
-		"Bootcamp/Contracts/Fundamentals/ErrorHandling.sol": {
-			"keccak256": "0xbc78e655aac97e5ee10546068f535eceaf8e0f4e4c35c84d0f7ce0856461a5f9",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://6a0584c26a07bc978428e527db289420cd984d879232711ee2e7644104caf733",
-				"dweb:/ipfs/QmZS1cHBwMGAJA4CT3q8TraTBDP8kneyMgCrzGXwgWev43"
-			]
-		}
-	},
-	"version": 1
+  "compiler": {
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "reason",
+            "type": "string"
+          }
+        ],
+        "name": "ErrorLogging",
+        "type": "event"
+      },
+      {
+        "inputs": [],
+        "name": "catchError",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "numExecuted",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "Bootcamp/Contracts/Fundamentals/ErrorHandling.sol": "ErrorHandling"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "Bootcamp/Contracts/Fundamentals/ErrorHandling.sol": {
+      "keccak256": "0xbc78e655aac97e5ee10546068f535eceaf8e0f4e4c35c84d0f7ce0856461a5f9",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://6a0584c26a07bc978428e527db289420cd984d879232711ee2e7644104caf733",
+        "dweb:/ipfs/QmZS1cHBwMGAJA4CT3q8TraTBDP8kneyMgCrzGXwgWev43"
+      ]
+    }
+  },
+  "version": 1
 }

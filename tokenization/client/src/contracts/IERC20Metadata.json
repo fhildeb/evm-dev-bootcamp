@@ -237,12 +237,8 @@
   "ast": {
     "absolutePath": "project:/contracts/subcontracts/IERC20Metadata.sol",
     "exportedSymbols": {
-      "IERC20": [
-        653
-      ],
-      "IERC20Metadata": [
-        678
-      ]
+      "IERC20": [653],
+      "IERC20Metadata": [678]
     },
     "id": 679,
     "license": "MIT",
@@ -250,12 +246,7 @@
     "nodes": [
       {
         "id": 655,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "110:23:3"
       },
@@ -298,10 +289,7 @@
         },
         "fullyImplemented": false,
         "id": 678,
-        "linearizedBaseContracts": [
-          678,
-          653
-        ],
+        "linearizedBaseContracts": [678, 653],
         "name": "IERC20Metadata",
         "nameLocation": "286:14:3",
         "nodeType": "ContractDefinition",
@@ -500,12 +488,8 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/subcontracts/IERC20Metadata.sol",
     "exportedSymbols": {
-      "IERC20": [
-        653
-      ],
-      "IERC20Metadata": [
-        678
-      ]
+      "IERC20": [653],
+      "IERC20Metadata": [678]
     },
     "id": 679,
     "license": "MIT",
@@ -513,12 +497,7 @@
     "nodes": [
       {
         "id": 655,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".7"
-        ],
+        "literals": ["solidity", "^", "0.8", ".7"],
         "nodeType": "PragmaDirective",
         "src": "110:23:3"
       },
@@ -561,10 +540,7 @@
         },
         "fullyImplemented": false,
         "id": 678,
-        "linearizedBaseContracts": [
-          678,
-          653
-        ],
+        "linearizedBaseContracts": [678, 653],
         "name": "IERC20Metadata",
         "nameLocation": "286:14:3",
         "nodeType": "ContractDefinition",
