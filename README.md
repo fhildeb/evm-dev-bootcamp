@@ -1,16 +1,38 @@
 # evm-dev-bootcamp
 
-Content-rich 60h+ [Ethereum Blockchain Developer](https://www.udemy.com/course/blockchain-developer/) Course from Ravinder Deol, Thomas Wiesner, and Haseeb Chaudhry on Udemy that was successfully completed in 2021.
+This repository contains a collection of projects and exercises completed as part of the [Ethereum Blockchain Developers](https://www.udemy.com/course/blockchain-developer/) course on Udemy. The course was conducted by Ravinder Deol, Thomas Wiesner, and Haseeb Chaudhry and was completed in 2021. It serves as a comprehensive guide for developing various smart contracts and decentralized applications (dApps) on the Ethereum blockchain.
 
-## Contents
+## Repository Contents
 
-- Solidity Best Practice Contracts
-- Geth Private/Local Setups
-- Supply Chain dApp
-- Tokenization dApp
-- Truffle & Ganache Setups
-- Truffle Solidity Testing
-- Web3 Webpage Setups
+#### [Contract Fundamentals](/contract-fundamentals/)
+
+This directory contains various Solidity contracts demonstrating best practices for writing secure and efficient smart contracts on the Ethereum blockchain.
+
+#### [Geth Modification](/geth-modification/)
+
+Here, you will find resources related to setting up private blockchain networks using the Go Ethereum (Geth) client.
+
+#### [Shared Wallet](/shared-wallet/)
+
+This directory houses a shared wallet project, a decentralized application that enables multiple parties to share funds in a secure manner.
+
+#### [Supply Chain](/supply-chain/)
+
+This directory contains a supply chain decentralized application. The dApp demonstrates how blockchain can revolutionize supply chain management by ensuring transparency and traceability.
+
+#### [Tokenization](/tokenization/)
+
+In this directory, you'll find a tokenization decentralized application. The dApp demonstrates the concept of asset tokenization on the Ethereum blockchain.
+
+#### [Web3 Instance](/web3-instance/)
+
+This directory consists of scripts showing how to interact with the Ethereum blockchain using the Web3.js instance that can be used within webpages and servers.
+
+#### [Web3 Terminal](/web3-terminal/)
+
+This directory contains scripts designed to run in the terminal for interacting with Ethereum blockchain. The scripts demonstrate how to carry out common operations such as querying balances, sending transactions, and interacting with smart contracts.
+
+> Note: The dApps in the 'Supply Chain' and 'Tokenization' directories feature setups using the **Truffle** framework and the **Ganache** personal blockchain for testing and deployment purposes.
 
 ## Cheat Sheets
 
