@@ -100,23 +100,27 @@ class App extends Component {
   };
 
   render() {
+    // Uncomment IF for UI Showcase
     if (!this.state.loaded) {
       return <div>Loading Web3, accounts, and contract...</div>;
     }
     return (
       <div className="App">
+        <div className="above"></div>
         <h1>Token Sale</h1>
         <h2>Enable your account</h2>
-        Address to allow:{" "}
+        <p></p>Address to allow:{" "}<p></p>
         <input
           type="text"
           name="KYCAddress"
           value={this.state.KYCAddress}
           onChange={this.handleInputChange}
         />
+        <p></p>
         <button type="button" onClick={this.handleKYCSubmit}>
           Add Address to Whitelist
         </button>
+        <p></p>
         <h2>Buy some Tokens</h2>
         <p>Send Ether to this address: {this.state.tokenSaleAddress}</p>
         <p>You have: {this.state.userTokenBalance}</p>

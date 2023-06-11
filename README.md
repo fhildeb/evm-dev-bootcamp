@@ -8,7 +8,7 @@ This repository contains a collection of projects and exercises completed as par
 - [Geth Modification](/geth-modification/): Resources related to setting up private blockchain networks using the Go Ethereum (Geth) client.
 - [Shared Wallet](/shared-wallet/): Shared wallet project, a decentralized application that enables multiple parties to share funds in a secure manner.
 - [Supply Chain](/supply-chain/): Supply chain decentralized application. The dApp demonstrates how blockchain can revolutionize supply chain management by ensuring transparency and traceability.
-- [Tokenization](/tokenization/): Decentralized Tokenization Application that demonstrates the concept of digital asset management.
+- [Token Sale](/token-sale/): Token Sale Application that demonstrates the concept of coin offerings, KYC, and whitelists.
 
 #### [Web3 Instance](/web3-instance/)
 
