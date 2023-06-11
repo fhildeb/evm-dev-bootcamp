@@ -81,21 +81,26 @@ class App extends Component {
   };
 
   render() {
+    // Uncomment IF for UI Showcase
     if (!this.state.loaded) {
       return <div>Loading Web3, accounts, and contract...</div>;
     }
     return (
       <div className="App">
+        <div className="above"></div>
         <h1>Supply Chain Channel</h1>
         <h2>Items</h2>
         <h2>Add Element</h2>
-        Cost:{" "}
+        <div>
+        Item Costs:{" "}
         <input
           type="text"
           name="cost"
           value={this.state.cost}
           onChange={this.handleInputChange}
         />
+        </div>
+        <div>
         Item Name:{" "}
         <input
           type="text"
@@ -103,6 +108,7 @@ class App extends Component {
           value={this.state.itemName}
           onChange={this.handleInputChange}
         />
+        </div>
         <button type="button" onClick={this.handleSubmit}>
           Create new Item
         </button>

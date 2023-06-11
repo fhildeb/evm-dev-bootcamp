@@ -1,4 +1,17 @@
-# Supply Chain MVP App
+# Minimal Supply Chain App
+
+This repository contains a minimal supply chain application to provide a trustless, decentralized system for managing a assets. It covers the entire life cycle of an item, from creation to payment and delivery, can be transparently tracked and verified on the Ethereum blockchain, ensuring the utmost transparency and reducing the potential for fraud.
+
+## Simple Web Interface
+
+![Simple Web Interface](/img/supply_chain.png)
+
+## Contract Functionality
+
+- **Item**: This contract represents an individual item in the supply chain. It has a price, an index, and a state to represent whether it's been paid for. A new instance of the Item contract is created for each item added to the supply chain. The contract also contains a fallback payable function to receive the payment for an item.
+- **ItemManager**: The ItemManager contract is responsible for managing the lifecycle of an item in the supply chain. It allows the owner to create, pay for, and deliver items. Each item can be in one of the three states - Created, Paid, or Delivered, represented by an enumeration. For each state change, an event is emitted. This contract also ensures that only the contract owner can perform certain operations, such as creating an item or marking an item as delivered.
+- **Migrations**: The Migrations contract keeps track of the migrations. It's a utility provided by the Truffle Suite, enabling the execution of deployment scripts in the correct order.
+- **Ownable**: The Ownable contract implements an authorization pattern, which centralizes the ownership of a contract to a single address. This pattern is useful for contracts that require access control mechanisms.
 
 ## Installation
 
@@ -36,8 +49,11 @@ migrate --reset
 
 Navigate to the client directory and start the client with your package manager.
 
+> The frontend only works with **Node V14**. Make sure to use NVM or manually switch to a older version before continuing to install all packages.
+
 ```bash
 cd client
+npm install
 npm start
 ```
 
